@@ -12,7 +12,9 @@
 
     <!-- Styles -->
     <!-- Bootstrap CSS -->
-    <link href="view/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="view/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <!-- Font awesome CSS -->
     <link href="view/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -20,6 +22,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="#">
+
 </head>
 
 <body>
@@ -29,36 +32,21 @@
         <!-- header -->
         <header>
             <!-- navigation -->
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button> -->
-                        <a class="navbar-brand" href="#">
-                            <img class="img-responsive" src="view/img/logo2.png" alt="Logo" /></a>
-                    </div>
+            <nav class="navbar navbar-expand-md navbar-dark navbarclass">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-md-none" href="#">
+                        <img src="./view/img/logo2.png" alt="">
+                    </a>
 
-                    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="registration.html">Signup</a></li>
-                            <li><a href="login.html">Login</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#event">Events</a></li>
-                                    <li><a href="#blog">New Blogs</a></li>
-                                    <li><a href="#subscribe">Subscribe</a></li>
-                                    <li><a href="#team">Executive Team</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+
+                            <a class="navbar-brand d-none d-md-block" href="#">
+                                <img src="./view/img/logo2.png" alt="">
+                            </a>
+
                         </ul>
-                    </div> -->
+                    </div>
                 </div>
             </nav>
         </header>
