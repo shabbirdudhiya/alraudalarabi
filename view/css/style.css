@@ -7,9 +7,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 @import url("https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400..700&display=swap");
 
+@font-face {
+  font-family: AlKanz;
+  src: url("./kanz-al-marjaan-webfont.woff");
+}
 .arabic {
   direction: rtl;
-  font-family: "Noto Naskh Arabic", serif;
+  font-family: AlKanz, serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
