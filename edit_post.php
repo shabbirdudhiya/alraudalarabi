@@ -49,11 +49,11 @@ if (!isset($_GET['id'])) {
         <input type="hidden" name="id" value="<?php echo $post['Id']; ?>">
         <div class="form-group">
             <label for="title">Title:</label>
-            <input type="text" class="form-control" id="title" name="title" value="<?php echo $post['Title']; ?>" required>
+            <input type="text" class="form-control" id="title" name="title" value="<?php echo $post['Title']; ?>">
         </div>
         <div class="form-group">
             <label for="body">Body:</label>
-            <textarea class="form-control" id="body" name="body" rows="6" required><?php echo $post['Body']; ?></textarea>
+            <textarea class="form-control" id="body" name="body" rows="6"><?php echo $post['Body']; ?></textarea>
         </div>
         <div class="form-group">
             <label for="category">Category:</label>

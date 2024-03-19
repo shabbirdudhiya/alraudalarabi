@@ -5,10 +5,9 @@ $success_msg = isset($_GET['success']) ? $_GET['success'] : "";
 $error_msg = isset($_GET['error']) ? $_GET['error'] : "";
 ?>
 <div class="container mt-5">
-
     <div class="row">
-        <h2>Add Posts</h2>
-        <button class="btn btn-primary btn-sm" onclick="window.location.href='all_posts.php'">View all
+        <h2 class="col">Add Posts</h2>
+        <button class="btn btn-primary btn-sm col" onclick="window.location.href='all_posts.php'">View all
             Posts</button>
     </div>
     <?php
@@ -25,11 +24,11 @@ $error_msg = isset($_GET['error']) ? $_GET['error'] : "";
     <form action="logic/logic_add_post.php" method="post" enctype="multipart/form-data">
         <div>
             <label for="title">Title:</label>
-            <input type="text" class="form-control" id="title" name="title" required>
+            <input type="text" class="form-control" id="title" name="title">
         </div>
         <div>
             <label for="body">Body:</label>
-            <textarea class="form-control" id="body" name="body" rows="6" required></textarea>
+            <textarea class="form-control" id="body" name="body" rows="6"></textarea>
         </div>
         <div class="row">
             <div class="col-md-6">
