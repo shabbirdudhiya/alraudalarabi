@@ -13,7 +13,7 @@ include 'header.inc.php';
     <div class="container">
 
         <!-- heading -->
-        <h2 class="arabic">الروض العربي </h2>
+        <h2 class="arabic" style="text-align: center;">الروض العربي </h2>
         <!-- paragraph -->
         <p class="arabic" style="font-size: large;"> الروض العربي يعبر رياضة النفوس باللغة
             العربية، وهذا الاسم تورية إلى معنى كلمة "روز" وهو "الدوام" في اللغة الهندية،
